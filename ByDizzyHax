@@ -205,7 +205,7 @@ getgenv().settings = {
     ["ult_forcewalkspeed"] = true, -- forces walkspeed even if set to 0
     ["ult_walkspeed"] = 64, -- how fast you walk in ult
     ["tp_duration"] = 0.15 -- how long it takes to tp
-})
+}
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ATrainSounds/refs/heads/main/ATrain.lua"))()
       print("Cant Stop The A Train Baby")
@@ -215,10 +215,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
 SetTab:AddButton({
 	Name = "aim assist",
 	Callback = function()
-	
-	--[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
+
 loadstring(game:HttpGet("https://pastefy.app/UqzfJvg8/raw"))()
       		print("Activated")
   	end    
